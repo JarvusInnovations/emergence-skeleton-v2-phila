@@ -132,10 +132,6 @@
     }
 }
 
-
-
-
-
 .filter-list {
     .submit-area {
         margin-top: 1em;
@@ -145,38 +141,5 @@
     .field + .field {
         font-size: .875em;
         margin: 0 1em 1em 0;
-    }
-}
-
-.button-group {
-    display: inline-block;
-    margin-top: .5em;
-
-    > label {
-        float: left;
-        margin-right: .5em;
-    }
-
-    > .button {
-        border-left: 1px solid rgba(black, .1);
-        border-radius: 0;
-        float: left;
-        margin: 0 !important;
-
-        &:first-of-type {
-            border-bottom-left-radius: 5px;
-            border-left: 0;
-            border-top-left-radius: 5px;
-        }
-
-
-        &:last-of-type {
-            border-bottom-right-radius: 5px;
-            border-top-right-radius: 5px;
-        }
-    }
-
-    + .button-group {
-        margin-left: .5em;
     }
 }
