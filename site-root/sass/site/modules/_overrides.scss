@@ -2,10 +2,6 @@ html {
     background-color: black;
 }
 
-#{headers(all)} {
-    text-transform: uppercase;
-}
-
 .site {
     &.header {
         background-color: white;
@@ -27,8 +23,13 @@ html {
 
 .site-branding {
     .site-logo {
-        margin-right: 1em;
         vertical-align: bottom;
+    }
+    
+    a:hover,
+    a:focus {
+        opacity: .6;
+        text-decoration: none;
     }
 }
 
