@@ -9,69 +9,6 @@
     width: 100%;
 }
 
-.category-grid {
-    @include clearfix;
-    list-style: none;
-    padding: 0;
-}
-
-.category-grid-item {
-    float: left;
-    margin: .75em;
-}
-
-.category-grid-link {
-    @include align-items(center);
-    background: white;
-    border: 1px solid $border-color;
-    border-radius: .25em;
-    box-shadow: 0 .5em .5em -.5em rgba(black, .1);
-    box-sizing: border-box;
-    @include display-flex;
-    @include flex-direction(column);
-    height: 8em;
-    @include justify-content(center);
-    padding: .75em;
-    position: relative;
-    text-align: center;
-    width: 8em;
-
-    &:hover,
-    &:focus {
-        background: tint($link-color, 90%);
-        border-color: $link-color;
-        text-decoration: none;
-    }
-}
-
-.category-grid-image {
-    display: block;
-    margin: 0 auto;
-}
-
-.category-grid-title {
-    color: $text-color;
-    font-weight: normal;
-    line-height: 1;
-    margin-top: .5em;
-}
-
-.category-grid-count {
-    background: tint($link-color, 85%);
-    border-radius: 5em;
-    box-shadow: 0 2px 2px -1px rgba(black, .1);
-    bottom: -.75em;
-    box-sizing: border-box;
-    font-size: 67%;
-    font-weight: bold;
-    line-height: 2em;
-    min-width: 2em;
-    padding: 0 .4375em;
-    position: absolute;
-    right: -1em;
-    text-align: center;
-}
-
 .endpoint-list {
     list-style: none;
     padding: 0;
