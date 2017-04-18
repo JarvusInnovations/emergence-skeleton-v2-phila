@@ -2,24 +2,25 @@
 
 // Phila.gov palette
 // -----------------------------------------------------------------------------
+
 $ben-franklin-blue: #027EA4; //primary
-$bell-yellow: #f2ba13;
+$bell-yellow:       #f2ba13;
+
+$geyser:            #dbe1e3; //primarily used on borders
+$ghost-gray:        #f7f7f7; //primarily used on callouts
+
+$mine-shaft:        #353535; //dark gray
+$sidewalk:          #666; //med-gray
+$manatee:           #9299a5; //Md. Grey (blueish)
+$whitesmoke:        #edf4f7; //whitesmoke
 
 $black: #000000;
 $white: #fff;
 
-$geyser: #dbe1e3; //primarily used on borders
-$ghost-gray: #f7f7f7; //primarily used on callouts
-
-$mine-shaft: #353535; //dark gray
-$sidewalk: #666; //med-gray
-$manatee: #9299a5; //Md. Grey (blueish)
-
-$whitesmoke: #edf4f7; //whitesmoke
 // -----------------------------------------------------------------------------
 
-$base-color:        $bell-yellow; // $whitesmoke;
-$accent-color:      $ben-franklin-blue;
+$base-color:        $bell-yellow !default; // $whitesmoke;
+$accent-color:      $ben-franklin-blue !default;
 $info-color:        #5bc0de !default;
 $success-color:     #23ad23 !default;
 $alert-color:       #f09b24 !default;
@@ -36,6 +37,6 @@ $border-color:      mix($text-color, $page-bg-color, 17%) !default;
 
 @import url('http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,700');
 
-$body-font:         'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$heading-font:      'Montserrat', Tahoma, sans-serif;
+$body-font:         'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$heading-font:      'Montserrat', Tahoma, sans-serif !default;
 $mono-font:         Consolas, monospace !default;
