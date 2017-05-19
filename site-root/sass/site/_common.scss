@@ -42,3 +42,15 @@ html {
     font-weight: bold;
     padding-left: 1em;
 }
+
+// utility classes
+
+.columns-3 {
+    @media #{$mq-tablet} {
+        columns: 2;
+    }
+
+    @media #{$mq-wide} {
+        columns: 3;
+    }
+}
