@@ -35,7 +35,7 @@ $muted-color:       mix($text-color, $page-bg-color)      !default;
 $shaded-color:      mix($text-color, $base-color)         !default;
 $border-color:      mix($text-color, $page-bg-color, 17%) !default;
 
-@import url('http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,700');
+@import url('//fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,700');
 
 $body-font:         'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
 $heading-font:      'Montserrat', Tahoma, sans-serif !default;
